@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes com CSS</title>
+    <style>
+        :root{
+            --cor1: red;
+            --cor2: green;
+
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        nav{
+            background-color: blueviolet;
+            height: 80px;
+            box-shadow: 1px 1px 5px #00000078;
+        }
+        nav > a{
+            color: #000000;
+            text-decoration: none; 
+            background-color: aqua;   
+                  
+        }
+
+        div{
+            background-color: rgb(0, 137, 168);
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+            border-radius: 0px 0px 10px 10px;
+        }
+        h1{
+            display: inline;
+            background-color: red;
+        }
+        p{
+            background-color: var(--cor2);
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="https://www.google.com.br" target="_blank">Google</a>
+        <a href="#">Notícias</a>
+        <a href="#">Contato</a>
+    </nav>
+    <div>
+        <h1>TEXTO ALEATÓRIO</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi voluptate quae facere, <a href="">LINK DENTRO DO TEXTO</a> non ullam consequatur quo porro recusandae quos vitae repellendus voluptatibus fuga praesentium eum reiciendis magni totam fugiat ratione?</p>
+    </div>
+
+
+    
+</body>
+</html>

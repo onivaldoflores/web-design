@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de cores no CSS</title>
+    <style>
+        body{
+            background-image: linear-gradient(to left, #022F40, #9FB1BC);
+        }
+
+        div{
+            background-color: #fff;
+            width: 500px;
+            padding: 15px;
+            border-radius: 15px;
+            margin: auto;
+        }
+
+        .texto{
+            background-color: #E6EDF2;
+        }
+
+        .cores{
+            color: red;
+        }
+
+        .cores:hover{
+            font-weight: bold;
+            color: green;
+            cursor: pointer;
+        }
+
+        #title{
+            font-size: 2em;
+            color: #931621;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="title">Cores em CSS</h1>
+        <p class="texto cores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus est accusantium architecto! Delectus sapiente eaque laudantium repellat officiis quis quas quidem odit nulla quibusdam quisquam perferendis, labore, deleniti illum.</p>
+        <h1>Teste de ID</h1>
+        <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum perspiciatis at possimus mollitia hic in voluptatibus sunt, doloribus iste laudantium dignissimos ipsum vitae molestiae, maiores asperiores, ipsam tempore assumenda id!</p>
+        <h2>teste class</h2>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nostrum voluptate quia ullam, ex consequuntur facere corporis asperiores rerum eaque dolorum possimus officia voluptas dignissimos sit eum sapiente? Reiciendis, ratione.</p>
+    </div>
+        
+    
+</body>
+</html>
